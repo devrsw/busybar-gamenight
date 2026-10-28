@@ -1,0 +1,36 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "games": {
+      "type": "string",
+      "label": "Games (comma-separated)",
+      "default": "Catan, Ticket to Ride, Wingspan, Azul, Carcassonne, Codenames, Splendor, Pandemic",
+      "max_length": 255
+    },
+    "players": {
+      "type": "string",
+      "label": "Players in seat order (comma-separated)",
+      "default": "",
+      "max_length": 200
+    },
+    "random_first": {
+      "type": "boolean",
+      "label": "Pick a random first player",
+      "default": true
+    },
+    "turn_limit_s": {
+      "type": "integer",
+      "label": "Turn alert after (s, 0 = off)",
+      "default": 0,
+      "min": 0,
+      "max": 900,
+      "step": 15
+    },
+    "back_screen": {
+      "type": "boolean",
+      "label": "Player times on back screen",
+      "default": true
+    }
+  }
+}

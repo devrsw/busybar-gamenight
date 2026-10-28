@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "net.scottdevries.gamenight",
+  "name": "Game Night",
+  "version": "0.1.0",
+  "api_version": "27.12.0",
+  "description": "Pick a board game, track whose turn it is and how long you've played",
+  "author": "Scott DeVries",
+  "heap_size_kib": 128
+}
